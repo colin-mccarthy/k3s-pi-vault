@@ -35,6 +35,8 @@ spec:
         env:
         - name: VAULT_ADDR
           value: 'http://127.0.0.1:8200'
+        - name: VAULT_DEV_ROOT_TOKEN_ID
+          value: ansible
         imagePullPolicy: IfNotPresent
         name: vault
         ports:
