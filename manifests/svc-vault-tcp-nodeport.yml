@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: vault
+  name: vault-tcp
+  namespace: default
+spec:
+  externalTrafficPolicy: Local
+  ports:
+  - name: vault-http
+    port: 8200
+    nodePort: 30007
+    protocol: TCP
+    targetPort: vault-http
+  selector:
+    app: vault
+  sessionAffinity: None
+  type: NodePort
