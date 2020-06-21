@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: vault
+  name: vault
+
+
+spec:
+  containers:
+  - name: vault
+    image: vault
+    ports:
+      - containerPort: 8200•
+        name: vault-http
+        protocol: TCP
+
+    envFrom:
+    - configMapRef:
+          name: vault-vars
