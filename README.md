@@ -47,6 +47,11 @@ Use the optional argument to not deploy Traefik as the http port will overlap.
 
 ## Service
 
+
+I made a NodePort [service](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/svc-vault-tcp-nodeport.yml)for port 30007 
+
+
+
 ## ConfigMap
 
 ## Pod
