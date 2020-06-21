@@ -39,7 +39,7 @@ export IP=192.168.161.104
 k3sup install --ip $IP --user pi --k3s-extra-args --no-deploy traefik
 ```
 
-Use the optional argument to not deploy Traefik as http port will overlap.
+Use the optional argument to not deploy Traefik as the http port will overlap.
 
 * `--k3s-extra-args` - Optional extra arguments to pass to k3s installer, wrapped in quotes, i.e. `--k3s-extra-args '--no-deploy traefik'`.
 
