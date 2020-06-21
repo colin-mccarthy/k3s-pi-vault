@@ -48,7 +48,7 @@ Use the optional argument to not deploy Traefik as the http port will overlap.
 
 
 
-## Service `NodePort` 
+## Service  
 [docs](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport)
 
 I made a NodePort [Service](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/svc-vault-tcp-nodeport.yml)
