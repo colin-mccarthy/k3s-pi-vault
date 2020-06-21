@@ -43,6 +43,8 @@ Use the optional argument to not deploy Traefik as the http port will overlap.
 
 * `--k3s-extra-args` - Optional extra arguments to pass to k3s installer, wrapped in quotes, i.e. `--k3s-extra-args '--no-deploy traefik'`.
 
+## Kubernets Objects
+
 
 
 ## Service
@@ -50,20 +52,36 @@ Use the optional argument to not deploy Traefik as the http port will overlap.
 I made a NodePort [Service](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/svc-vault-tcp-nodeport.yml)
 for port 30007
 
+```
+kubectl apply -f svc-vault-tcp-nodeport.yml 
+```
+
 ## ConfigMap
 
 I made a [ConfigMap](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/configmap-vault-vars.yml)
 to hold the Env vars.
+
+```
+kubectl apply -f configmap-vault-vars.yml 
+```
 
 ## Pod
 
 I made a [Pod](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/pod-vault.yml)
 to stand up Vault with the littlest amount of complexity.
 
+```
+kubectl apply -f pod-vault.yml 
+```
+
 ## Deployment
 
 I made a [Deployment](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/deployment-vault.yml)
-to stand up Vault replicas and an update strategy.
+to stand up Vault with replicas and an update strategy.
+
+```
+kubectl apply -f deployment-vault.yml
+```
 
 
 ## Secret
