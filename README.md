@@ -59,6 +59,7 @@ kubectl apply -f svc-vault-tcp-nodeport.yml
 ```
 
 ## ConfigMap
+[docs](https://kubernetes.io/docs/concepts/configuration/configmap/)
 
 I made a [ConfigMap](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/configmap-vault-vars.yml)
 to hold the Env vars.
@@ -68,6 +69,7 @@ kubectl apply -f configmap-vault-vars.yml
 ```
 
 ## Pod
+[docs](https://kubernetes.io/docs/concepts/workloads/pods/pod/)
 
 I made a [Pod](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/pod-vault.yml)
 to stand up Vault with the littlest amount of complexity.
@@ -77,6 +79,7 @@ kubectl apply -f pod-vault.yml
 ```
 
 ## Deployment
+[docs](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
 I made a [Deployment](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/deployment-vault.yml)
 to stand up Vault with replicas and an update strategy.
@@ -87,6 +90,7 @@ kubectl apply -f deployment-vault.yml
 
 
 ## Secret
+[docs](https://kubernetes.io/docs/concepts/configuration/secret/)
 
 Coming soon
 
