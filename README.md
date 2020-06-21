@@ -23,7 +23,7 @@ k3sup --help
 
 I would also suggest you check out [Alex Ellis on Twitter](https://twitter.com/alexellisuk)
 
-His Twitter account has inspired me to learn lots of fune stuff with Kubernetes FaaS and RPIs.
+His Twitter account has inspired me to learn lots of fun stuff with Kubernetes FaaS and RPIs.
 
 
 ### Setup K3s with `k3sup` but do not deploy Traefik
