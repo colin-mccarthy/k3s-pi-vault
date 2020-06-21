@@ -45,6 +45,19 @@ Use the optional argument to not deploy Traefik as the http port will overlap.
 
 
 
+## Service
+
+## ConfigMap
+
+## Pod
+
+## Deployment
+
+## Secret
+
+
+
+
 
 
 
