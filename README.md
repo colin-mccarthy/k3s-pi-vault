@@ -43,11 +43,13 @@ Use the optional argument to not deploy Traefik as the http port will overlap.
 
 * `--k3s-extra-args` - Optional extra arguments to pass to k3s installer, wrapped in quotes, i.e. `--k3s-extra-args '--no-deploy traefik'`.
 
-## Kubernetes Objects
+## Kubernetes Objects 
+[docs](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)
 
 
 
-## Service
+## Service `NodePort` 
+[docs](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport)
 
 I made a NodePort [Service](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/manifests/svc-vault-tcp-nodeport.yml)
 for port 30007
