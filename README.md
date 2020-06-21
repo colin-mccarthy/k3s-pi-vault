@@ -43,7 +43,7 @@ Use the optional argument to not deploy Traefik as the http port will overlap.
 
 * `--k3s-extra-args` - Optional extra arguments to pass to k3s installer, wrapped in quotes, i.e. `--k3s-extra-args '--no-deploy traefik'`.
 
-## Kubernets Objects
+## Kubernetes Objects
 
 
 
