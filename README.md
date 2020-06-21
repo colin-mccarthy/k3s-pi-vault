@@ -9,7 +9,7 @@ To learn Kubernetes with a Raspberry Pi 4 and K3s.
 
 ## Download `k3sup` 
 
-I copied this section from the [K3sup README](https://github.com/alexellis/k3sup/blob/master/README.md) go check it out.
+I copied this section from the [k3sup README](https://github.com/alexellis/k3sup/blob/master/README.md) go check it out.
 
 `k3sup` is distributed as a static Go binary. You can use the installer on MacOS and Linux, or visit the [Releases page](https://github.com/alexellis/k3sup/releases) to download the executable for Windows.
 
