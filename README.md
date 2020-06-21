@@ -26,7 +26,7 @@ I would also suggest you check out [Alex Ellis on Twitter](https://twitter.com/a
 His Twitter account has inspired me to learn lots of fune stuff with Kubernetes FaaS and RPIs.
 
 
-### Setup K3s with `k3sup`
+### Setup K3s with `k3sup` but do not deploy Traefik
 
 > Note: You can copy ssh keys to a remote VM with `ssh-copy-id user@IP`.
 
