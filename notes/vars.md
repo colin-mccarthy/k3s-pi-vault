@@ -1,5 +1,6 @@
 
 ## secretKeyRef
+[docs](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-environment-variables)
 
 ```
           valueFrom:
