@@ -68,7 +68,7 @@ to hold the Env vars.
 kubectl apply -f configmap-vault-vars.yml 
 ```
 
-There are many ways to define your variables I have some [notes](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/notes/vars.md) on the different patterns.
+There are many ways to inject you variables into the pod, I have some [notes](https://github.com/colin-mccarthy/k3s-pi-vault/blob/master/notes/vars.md) on the different patterns.
 
 
 ## Pod
