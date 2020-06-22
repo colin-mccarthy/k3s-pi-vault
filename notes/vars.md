@@ -11,6 +11,7 @@
 ```
 
 ## configMapRef
+[docs]([docs](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-environment-variables))
 
 ```
 spec:
